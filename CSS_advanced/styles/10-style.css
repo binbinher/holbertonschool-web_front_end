@@ -53,6 +53,11 @@ a {
 	text-decoration: none;
 }
 
+/* Set horizontal alignment for section headers */
+.section-header {
+	text-align: var(--section-header-align);
+}
+
 /* Hide all elements with the class visually-hidden */
 .visually-hidden {
 	display: none;
