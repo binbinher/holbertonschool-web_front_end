@@ -36,6 +36,10 @@ html {
 
 	/* Custom text-transform property */
 	--section-tagline-transform: uppercase;
+
+	/* Custom title properties */
+	--section-title-margin: 0;
+	--section-title-color: var(--color-black)
 }
 
 /* Set the font-family and font-size for the body */
@@ -72,11 +76,6 @@ a {
 	/* Set font weight */
 }
 
-/* Hide all elements with the class visually-hidden */
-.visually-hidden {
-	display: none;
-}
-
 /* Set the foreground color for all elements with the class card-category */
 .card-category {
 	color: var(--color-primary);
@@ -91,4 +90,9 @@ h5,
 h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
+}
+
+/* Hide all elements with the class visually-hidden */
+.visually-hidden {
+	display: none;
 }
